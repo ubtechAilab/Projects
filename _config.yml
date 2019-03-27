@@ -1,6 +1,6 @@
 # Site settings
-title: Project Pages
-description: "An Integrated Scientific Blogging Template"
+title: Ubtech Sydney AI lab
+description: "Ubtech Syndey AI lab"
 url: "https://ubtechailab.github.io"
 
 
@@ -10,7 +10,7 @@ url: "https://ubtechailab.github.io"
 baseurl: "/Projects"
 header-img: img/home-bg.jpg
 headercolor: "#FFFFFF"
-logo: /Projects/img/logos/logo-ubtech.png
+logo: /Projects/img/logos/Project-Pages-New-Logo-Inverted.png
 
 # Tertiary Parameters
 github_username:  ubtechAilab
