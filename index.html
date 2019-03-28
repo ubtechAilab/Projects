@@ -5,9 +5,9 @@ layout: page
 
 <h1> Papers
 <hr>
-{% for project in site.data.projects %} {% if project.visible == true %}
+{% for project in site.data.projects %} {% if project.visible != false %}
 
-    <img src="{{ project.img }}" style="margin-top:0px; margin-bottom:5px; margin-right:10px; float:left; width:300px !important">
+    <img src="{{ project.img }}" style="margin-top:0px; margin-bottom:5px; margin-right:10px; float:left; width:750px !important">
 	<h1>{{ project.name }}</h1>
 	
     {{project.authors}}

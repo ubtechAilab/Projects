@@ -8,13 +8,11 @@
   pdf: https://arxiv.org/pdf/1804.09541.pdf
   data: https://nlp.stanford.edu/software/GloVe-1.2.zip
   training: https://github.com/i-lovelife/test-private-repo
-  visible: true
+  visible: false
 
-- name: testProjectName
-  authors: a, b, c, d
-  intro: A Tensorflow implementation of Google's QANet (previously Fast Reading Comprehension (FRC)) from ICLR2018.
-  code: https://github.com/NLPLearn/QANet
-  pdf: https://arxiv.org/pdf/1804.09541.pdf
-  data: https://nlp.stanford.edu/software/GloVe-1.2.zip
-  training: https://github.com/i-lovelife/test-private-repo
-  visible: true
+- name: Gated-GAN&#58; Adversarial Gated Networks for Multi-Collection Style Transfer
+  authors: Xinyuan Chen, Chang Xu, Xiaokang Yang, Li Song, Dacheng Tao
+  img: https://github.com/xinyuanc91/Gated-GAN/raw/master/imgs/architecture.jpg
+  intro: We propose adversarial gated networks (Gated-GAN) to transfer multiple styles in a single model. The generative networks have three modules&#58; an encoder, a gated transformer, and a decoder. Different styles can be achieved by passing input images through different branches of the gated transformer.
+  code: https://github.com/xinyuanc91/Gated-GAN
+  pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8463508
