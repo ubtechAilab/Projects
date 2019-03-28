@@ -1,7 +1,20 @@
 # Projects
   
 - name: testProjectName
+  authors: a, b, c, d
   img: https://raw.githubusercontent.com/NLPLearn/QANet/master/screenshots/figure.png
-  intro: A Tensorflow implementation of Google's QANet (previously Fast Reading Comprehension (FRC)) from ICLR2018. (Note: This is not an official implementation from the authors of the paper) Currently, the best model reaches EM/F1 = 70.8/80.1 in 60k steps (6~8 hours). Detailed results are listed below.
-  github: https://github.com/NLPLearn/QANet
+  intro: A Tensorflow implementation of Google's QANet (previously Fast Reading Comprehension (FRC)) from ICLR2018.
+  code: https://github.com/NLPLearn/QANet
+  pdf: https://arxiv.org/pdf/1804.09541.pdf
+  data: https://nlp.stanford.edu/software/GloVe-1.2.zip
+  training: https://github.com/i-lovelife/test-private-repo
+  visible: true
+
+- name: testProjectName
+  authors: a, b, c, d
+  intro: A Tensorflow implementation of Google's QANet (previously Fast Reading Comprehension (FRC)) from ICLR2018.
+  code: https://github.com/NLPLearn/QANet
+  pdf: https://arxiv.org/pdf/1804.09541.pdf
+  data: https://nlp.stanford.edu/software/GloVe-1.2.zip
+  training: https://github.com/i-lovelife/test-private-repo
   visible: true

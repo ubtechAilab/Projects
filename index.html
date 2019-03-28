@@ -3,16 +3,29 @@ layout: page
 ---
 <hr>
 
+<h1> Papers
+<hr>
 {% for project in site.data.projects %} {% if project.visible == true %}
 
-	<img src="{{ project.img }}" style="margin-top:0px; margin-bottom:5px; margin-right:10px; float:left; width:150px !important">
-	
+    <img src="{{ project.img }}" style="margin-top:0px; margin-bottom:5px; margin-right:10px; float:left; width:300px !important">
 	<h1>{{ project.name }}</h1>
 	
-	{% if project.github %} 
-	<span class="social-share-googleplus"><a href="https://github.com/{{ member.github }}" title="Github"><img src="{{ "/img/icons/github-icon.png" | prepend: site.baseurl }}" style="height:20px">Github</a></span> 
+    {{project.authors}}
+
+    <br>
+    
+	
+    {% if project.code %} 
+	<a href="{{ project.code }}" title="Code">[code]</a> 
 	{% endif %}
 	
+	{% if project.pdf %} 
+	<a href="{{ project.pdf }}" title="Pdf">[pdf]</a> 
+	{% endif %}
+
+	{% if project.data %} 
+	<a href="{{ project.data }}" title="Data">[data]</a> 
+	{% endif %}
 	</br>
 
 	{% if project.intro %} 
