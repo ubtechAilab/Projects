@@ -16,3 +16,29 @@
   intro: We propose adversarial gated networks (Gated-GAN) to transfer multiple styles in a single model. The generative networks have three modules&#58; an encoder, a gated transformer, and a decoder. Different styles can be achieved by passing input images through different branches of the gated transformer.
   code: https://github.com/xinyuanc91/Gated-GAN
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8463508
+
+- name: Continuous Dropout
+  authors: Xu Shen, Xinmei Tian, Tongliang Liu, Fang Xu, Dacheng Tao
+  intro: According to the activation patterns of neurons in the human brain, when faced with different situations, the firing rates of neurons are random and continuous, not binary as current dropout does. Inspired by this phenomenon, we extend the traditional binary dropout to continuous dropout. On the one hand, continuous dropout is considerably closer to the activation characteristics of neurons in the human brain than traditional binary dropout. On the other hand, we demonstrate that continuous dropout has the property of avoiding the co-adaptation of feature detectors, which suggests that we can extract more independent feature detectors for model averaging in the test stage.
+  code: https://github.com/jasonustc/caffe-multigpu/tree/dropout
+  pdf: https://ieeexplore.ieee.org/document/8057594
+  data: MNIST, CIFAR10, IMAGENET
+
+- name: Multi-Task Learning for Blind Source Separation
+  authors: Bo Du, Shaodong Wang, Chang Xu, Nan Wang, Liangpei Zhang, Dacheng Tao
+  intro: In this paper, we propose a new algorithm named multi-task sparse model to solve the BSS problem. Source signals are characterized via sparse techniques. Meanwhile, we regard the decomposition of each mixture signal as a task and employ the idea of multi-task learning to discover connections between tasks for the accuracy improvement of the source signal separation. Theoretical analyses on the optimization convergence and sample complexity of the proposed algorithm are provided. Experimental results based on extensive synthetic and real-world data demonstrate the necessity of exploiting connections between mixture signals and the effectiveness of the proposed algorithm
+  code: https://github.com/532806389/Multi-Task-Learning-for-Blind-Source-Separation
+  pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8359085
+
+- name: Multi-task model and feature joint learning
+  authors: Ya Li, Xinmei Tian, Tongliang Liu, Dacheng Tao
+  intro: A matlab implementation for work “On Better Exploring and Exploiting Task Relationships in Multi-Task Learning&#58; Joint Model and Feature Learning” from TNNLS.
+  code: https://github.com/YaLeeUSTC/MTMF
+  pdf: https://ieeexplore.ieee.org/document/7902220
+
+- name: Heterogeneous Multitask Metric Learning Across Multiple Domains
+  authors: Yong Luo, Yonggang Wen, Dacheng Tao
+  img: https://raw.githubusercontent.com/yluopku/HMTML/master/System_Diagram.png
+  intro: A Matlab implementation of the heterogeneous multi-task metric learning method from IEEE TNNLS 2018 (Heterogeneous Multitask Metric Learning Across Multiple Domains) and IJCAI 2016 (On Combining Side Information and Unlabeled Data for Heterogeneous Multi-Task Metric Learning).
+  code: https://github.com/yluopku/HMTML
+  pdf: https://www.ijcai.org/Proceedings/16/Papers/259.pdf
